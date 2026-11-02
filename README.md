@@ -1,163 +1,123 @@
-# NumPy and Pandas
+# NumPy and Pandas – Data Analysis Using Python
 
 ## 📌 Project Overview
 
-This repository contains Python assignments focused on learning data analysis using **NumPy and Pandas**. It covers array creation, indexing, slicing, numerical calculations, Series manipulation, and DataFrame operations.
+This project focuses on Python data analysis using NumPy and Pandas libraries. It demonstrates practical operations such as array creation, indexing, slicing, numerical calculations, Series manipulation, and DataFrame analysis.
 
-These assignments provide hands-on experience with essential Python libraries used in Data Analytics.
+## 🎯 Objectives
 
-## 🎯 Project Objectives
-
-- Understand NumPy array creation and manipulation.
-- Perform array indexing and slicing operations.
+- Learn NumPy array creation and manipulation.
+- Perform array indexing and slicing.
 - Convert Celsius temperatures into Fahrenheit.
 - Create and manipulate Pandas Series.
 - Understand custom indexing and Boolean masking.
-- Create, explore, and modify Pandas DataFrames.
+- Create and explore Pandas DataFrames.
 - Perform data filtering, grouping, and aggregation.
 - Analyze transaction data using Pandas.
 
-## 🛠️ Technologies & Tools
+## 🛠️ Technologies Used
 
 - Python 3
 - NumPy
 - Pandas
 - Jupyter Notebook
 - Google Colab
-- GitHub
+
+## 📂 Project Modules
 
 ### 1. NumPy – Temperature Data Analysis
 
-**Objective:** Analyze daily average temperatures recorded over two weeks using NumPy.
-
-**Key Concepts:**
-- Creating 1D and 2D NumPy arrays.
-- Checking array shape, size, and data type.
-- Celsius to Fahrenheit conversion.
-- Array indexing and slicing.
-- Extracting weekly and weekend temperatures.
-
-**Key Learning:** Understanding NumPy arrays and performing numerical operations efficiently.
+- Create 1D and 2D NumPy arrays.
+- Explore array shape, size, and data types.
+- Convert Celsius to Fahrenheit.
+- Perform array indexing and slicing.
+- Extract weekly and weekend temperatures.
 
 ### 2. Pandas Series – Student Marks Analysis
 
-**Objective:** Create and manipulate a Pandas Series containing student marks with custom rank indices.
-
-**Key Concepts:**
-- Creating Pandas Series.
-- Custom indexing.
-- Integer-based indexing using `iloc`.
-- Label-based indexing using `loc`.
-- Boolean masking.
-- Updating and deleting Series elements.
-- Calculating CGPA.
-
-**Key Learning:** Understanding Pandas Series and performing data selection and manipulation.
+- Create Pandas Series with custom indexes.
+- Access values using `loc` and `iloc`.
+- Apply Boolean masking.
+- Update and delete Series values.
+- Calculate CGPA.
 
 ### 3. Pandas DataFrame – Transaction Analysis
 
-**Objective:** Create, explore, filter, and manipulate transaction records using Pandas DataFrames.
-
-**Key Concepts:**
-- Creating Pandas DataFrames.
-- Exploring data using `head()` and `tail()`.
-- Checking shape, columns, and data types.
-- Selecting specific columns.
-- Filtering transaction records.
-- Using `value_counts()` and `unique()`.
-- Grouping data using `groupby()`.
-- Calculating average transaction amounts.
-- Adding, modifying, and deleting rows and columns.
-
-**Key Learning:** Understanding DataFrame operations and performing basic transaction data analysis.
+- Create and explore DataFrames.
+- Display records using `head()` and `tail()`.
+- Select specific columns.
+- Filter transaction records.
+- Find unique values and value counts.
+- Group data by region.
+- Calculate average transaction amounts.
+- Add, update, and delete rows and columns.
 
 ## 📊 Key Results
 
-| Assignment | Practical Skills |
+| Module | Concepts Covered |
 |---|---|
-| NumPy | Array creation, slicing, indexing, and calculations |
-| Pandas Series | Custom indexing, filtering, and CGPA calculation |
-| Pandas DataFrame | Data exploration, filtering, grouping, and manipulation |
+| NumPy | Array creation, indexing, slicing, calculations |
+| Pandas Series | Custom indexing, filtering, modification |
+| Pandas DataFrame | Data exploration, grouping, aggregation |
 
-## 💻 Installation and Execution
+## 💻 Installation
 
-### Step 1: Install Python Libraries
+Install the required Python libraries:
 
 ```bash
 pip install numpy pandas
 ```
 
-### Step 2: Clone the Repository
+## ▶️ Execution
+
+Run the Python files:
 
 ```bash
-git clone https://github.com/your-username/Python-Fundamentals-Assignments.git
+python numpy_temperature_analysis.py
+python pandas_series_marks.py
+python pandas_transactions.py
 ```
 
-### Step 3: Navigate to the Project Folder
-
-```bash
-cd Python-Fundamentals-Assignments
-```
-
-### Step 4: Run the Assignments
-
-```bash
-python Assignment-1-NumPy/numpy_temperature_analysis.py
-
-python Assignment-2-Pandas-Series/pandas_series_marks.py
-
-python Assignment-3-Pandas-DataFrame/pandas_transactions.py
-```
-
-You can also run the programs using Jupyter Notebook or Google Colab.
+You can also execute the code using Jupyter Notebook or Google Colab.
 
 ## 📁 Project Structure
 
 ```text
-Python-Fundamentals-Assignments/
+NumPy-and-Pandas-Data-Analysis/
 │
 ├── README.md
 │
-├── Assignment-1-NumPy/
-│   └── numpy_temperature_analysis.py
+├── numpy_temperature_analysis.py
 │
-├── Assignment-2-Pandas-Series/
-│   └── pandas_series_marks.py
+├── pandas_series_marks.py
 │
-├── Assignment-3-Pandas-DataFrame/
-│   └── pandas_transactions.py
-│
-└── Outputs/
-    ├── numpy_output.png
-    ├── series_output.png
-    └── dataframe_output.png
+└── pandas_transactions.py
 ```
 
-## 🎓 Skills Gained
+## 🎓 Skills Learned
 
-- Python Programming Fundamentals
-- NumPy Array Operations
-- Pandas Series and DataFrames
-- Data Indexing and Slicing
-- Boolean Filtering
-- Data Manipulation
+- Python Programming
+- NumPy
+- Pandas
+- Data Analysis
+- Array Manipulation
+- Data Filtering
+- Data Cleaning
 - Data Aggregation
-- Basic Data Analysis
+- DataFrame Operations
 
 ## 🏁 Conclusion
 
-Through these assignments, I gained practical knowledge of Python programming and data analysis using NumPy and Pandas.
+This project provided practical experience in Python data analysis using NumPy and Pandas. It strengthened my understanding of numerical computations, data manipulation, filtering, and DataFrame operations.
 
-I learned how to create and manipulate arrays, work with Pandas Series, explore DataFrames, filter records, and perform numerical calculations.
-
-This project strengthened my foundational skills and prepared me for more advanced Data Analytics projects.
+These skills provide a strong foundation for working on real-world Data Analytics projects.
 
 ## 👨‍💻 Author
 
 **Sainadh**
 
-Aspiring Data Analyst | Python | NumPy | Pandas | Data Analytics
+Aspiring Data Analyst | Python | NumPy | Pandas
 
 ---
 
-⭐ If you find this project useful, feel free to explore the repository!
+⭐ Thank you for visiting my project!
